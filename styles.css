@@ -1,0 +1,53 @@
+*  {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.canvas {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 50vw bottom 50vh, top 50vh left 50vw;
+}
+
+/* CARD CONTAINER */
+
+.card-container {
+    width: 20.375rem;
+    height: 23.375rem;
+}
+
+.card-bg-image {
+    width: 326px;
+    height: 144px;
+    background-image: url(./images/bg-pattern-card.svg);
+    background-size: cover;
+}
+
+.card-info {
+    width: 100%;
+    height: 14.125rem;
+    background-color: #FFF;
+}
+
+/* FOOTER */
+
+.attribution { 
+    font-size: 0.688rem; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
