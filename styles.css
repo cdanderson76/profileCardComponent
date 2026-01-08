@@ -121,15 +121,15 @@ li span {
 /* FOOTER */
 
 .attribution { 
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    width: 90%;
+    align-items: center; */
+    width: 80%;
     height: 20px;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center; 
     /* border: 1px solid black; */
-    margin-top: 1px;
+    margin-top: 15px;
 }
     
 .attribution a {
