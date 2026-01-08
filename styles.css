@@ -23,23 +23,24 @@ img {
     background-repeat: no-repeat;
     background-position: right 50vw bottom 50vh, top 50vh left 50vw;
     font-family: "Kumbh Sans", sans-serif;
+    transition-duration: 1s;
 }
 
 /* CARD CONTAINER */
 
 .card-container {
-    width: 20.375rem;
+    min-width: 324px;
     height: 23.375rem;
     position: relative;
-    margin: 0 2px 0 2px;
 }
 
 .card-bg-image {
-    width: 20.375rem;
+    width: 100%;
     height: 9rem;
     background-image: url(./images/bg-pattern-card.svg);
     background-size: cover;
     border-radius: 20px 20px 0 0;
+    transition-duration: 1s;
 }
 
 .card-info {
@@ -134,9 +135,27 @@ li span {
     animation-iteration-count: infinite;
 }
 
-@media ( min-width: ) {
-    
+/* MEDIA QUERY */
+
+@media ( min-width: 768px) {
+    .canvas {
+        transition-duration: 1s;
+        background-color: rgb(139, 38, 38);
+    }
+
+    .card-container {
+        width: 43%;
+        max-width: 350px;
+    }
+
+    div .card-bg-image {
+        transition-duration: 1s;
+        background-color: #8b2626;
+        background-image: url(./images/bg-pattern-card-red.svg);
+    }
 }
+
+/* SIGNATURE ANIMATION */
 
 @keyframes smoothFill {
   00%,0%{
