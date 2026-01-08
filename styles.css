@@ -31,6 +31,7 @@ img {
     width: 20.375rem;
     height: 23.375rem;
     position: relative;
+    margin: 0 2px 0 2px;
 }
 
 .card-bg-image {
@@ -59,7 +60,6 @@ img {
     align-items: center;
     width: 133px;
     height: 49px;
-    /* border: 1px solid black; */
     margin-top: 30px;
 }
 
@@ -91,7 +91,6 @@ h2 {
 .stat-box {
     width: 326px;
     height: 69px;
-    /* border: 1px solid black; */
     margin-top: 24px;
 }
 
@@ -121,23 +120,22 @@ li span {
 /* FOOTER */
 
 .attribution { 
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     width: 80%;
     height: 20px;
     font-size: 15px;
     text-align: center; 
-    /* border: 1px solid black; */
     margin-top: 15px;
 }
     
 .attribution a {
     margin-left: 5px;
-    /* color: hsl(228, 45%, 44%); */
     animation-name: smoothFill;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+}
+
+@media ( min-width: ) {
+    
 }
 
 @keyframes smoothFill {
