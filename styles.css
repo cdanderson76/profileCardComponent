@@ -125,11 +125,11 @@ li span {
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 40px;
-    font-size: 15px; 
+    height: 20px;
+    font-size: 10px;
     text-align: center; 
     /* border: 1px solid black; */
-    margin-top: 15px;
+    margin-top: 1px;
 }
     
 .attribution a {
