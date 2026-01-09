@@ -135,7 +135,7 @@ li span {
     animation-iteration-count: infinite;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERY FOR TABLET AND DESKTOP MODE */
 
 @media ( min-width: 768px) {
     .canvas {
@@ -153,7 +153,13 @@ li span {
         background-color: #8b2626;
         background-image: url(./images/bg-pattern-card-red.svg);
     }
+
+    .card-info {
+      height: 150px;
+    }
 }
+
+/* MEDIA QUERY FOR LANDSCAPE MOBILE AND MOBILE */
 
 @media (orientation: landscape) {
 
