@@ -157,8 +157,8 @@ li span {
 
 @media (orientation: landscape) and (max-height: 500px) {
   .card-container {
-    min-width: 800px;
-    height: 200px;
+    min-width: 600px;
+    height: 100px;
     margin-bottom: 40px;
     position: relative; 
   }
