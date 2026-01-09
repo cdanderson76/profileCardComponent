@@ -18,7 +18,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: hsl(185, 75%, 39%);
+    background-color: #19a2ae;
     background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-position: right 50vw bottom 50vh, top 50vh left 50vw;
@@ -30,8 +30,9 @@ img {
 
 .card-container {
     min-width: 324px;
-    height: 23.375rem;
+    height: 20.25rem;
     position: relative;
+    margin-top: -6.25rem;
 }
 
 .card-bg-image {
@@ -59,13 +60,13 @@ img {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 133px;
-    height: 49px;
-    margin-top: 30px;
+    width: 8.313rem;
+    height: 3.063rem;
+    margin-top: 1.875rem;
 }
 
 .name {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
@@ -75,7 +76,7 @@ img {
 }
 
 h2 {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     color: gray;
 }
@@ -90,9 +91,9 @@ h2 {
 }
 
 .stat-box {
-    width: 326px;
-    height: 69px;
-    margin-top: 24px;
+    width: 20.375rem;
+    height: 4.313rem;
+    margin-top: 1.5rem;
 }
 
 ul {
@@ -125,7 +126,7 @@ li span {
     height: 20px;
     font-size: 15px;
     text-align: center; 
-    margin-top: 15px;
+    margin-top: 70px;
 }
     
 .attribution a {
@@ -178,6 +179,7 @@ li span {
     background-image: url(./images/bg-pattern-card.svg);
     position: relative; 
     border-radius: 20px 0 0 20px;
+    transition-duration: 0s;
   }
 
   .stat-box {
