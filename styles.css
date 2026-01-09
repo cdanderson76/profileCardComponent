@@ -163,7 +163,7 @@ li span {
     display: flex;
     justify-content: flex-start;
     background-color: hsl(185, 75%, 39%);
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .card-container {
