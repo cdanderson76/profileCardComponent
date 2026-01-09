@@ -170,7 +170,7 @@ li span {
     display: flex;
     min-width: 500px;
     height: 50px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   div .card-bg-image {
@@ -180,14 +180,8 @@ li span {
     border-radius: 20px 0 0 20px;
   }
 
-  .name-box {
-    /* margin-top: -15px; */
-    /* border: 1px solid black; */
-  }
-
   .stat-box {
-    margin-top: 30px;
-    /* border: 1px solid black; */
+    margin-top: 15px;
   }
 
   .card-info {
