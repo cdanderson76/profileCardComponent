@@ -86,7 +86,7 @@ h2 {
     border: 5px solid #FFF;
     border-radius: 50%;
     position: absolute;
-    top: 90px;
+    top: 95px;
 }
 
 .stat-box {
@@ -135,7 +135,7 @@ li span {
     animation-iteration-count: infinite;
 }
 
-/* MEDIA QUERY */
+/* MEDIA QUERIES */
 
 @media ( min-width: 768px) {
     .canvas {
@@ -153,6 +153,15 @@ li span {
         background-color: #8b2626;
         background-image: url(./images/bg-pattern-card-red.svg);
     }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .card-container {
+    min-width: 800px;
+    height: 200px;
+    margin-bottom: 40px;
+    position: relative; 
+  }
 }
 
 /* SIGNATURE ANIMATION */
