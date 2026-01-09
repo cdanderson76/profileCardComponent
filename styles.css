@@ -153,15 +153,11 @@ li span {
         background-color: #8b2626;
         background-image: url(./images/bg-pattern-card-red.svg);
     }
-
-    .card-info {
-      height: 100px;
-    }
 }
 
-/* MEDIA QUERY FOR LANDSCAPE MOBILE AND MOBILE */
+/* MEDIA QUERY FOR LANDSCAPE MOBILE */
 
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-height: 500px) {
 
   .canvas {
     display: flex;
