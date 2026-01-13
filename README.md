@@ -4,6 +4,17 @@ This is an HTML/CSS project that was made available by Frontend Mentor. It chall
 
 ![Image](https://github.com/user-attachments/assets/e60850d5-2128-4cf5-94f7-c6efb324f4b6)
 
+<h2>Built with:</h2>
+- HTML5 (semantic markup)
+- CSS3
+- Flexbox
+- Mobile-first workflow
+
+<h2>Key Learnings</h2>
+- Working with SVG assets as background elements
+- Using `background-position` for layered layouts
+- Improving responsiveness with `rem` units and mobile-first CSS
+
 <h2>What are you most proud of, and what would you do differently next time?</h2>
 I'm most proud that the design turned out the way that it did. I was able to get the 'svg' files to work accordingly and created the resulting background.  I didn't have a lot of experience using the 'background-position' property to produce  UIs such as these, but it was nice to gain some familiarity using this property.
 
