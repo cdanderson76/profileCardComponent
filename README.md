@@ -1,3 +1,5 @@
+<h1>Profile Card Component</h1>
+
 This is an HTML, CSS, project that was made available by Frontend Mentor. It challenges you to use provided its provided data files and CSS in order to build out a profile card for the listed individual.
 
 ![Image](https://github.com/user-attachments/assets/e60850d5-2128-4cf5-94f7-c6efb324f4b6)
