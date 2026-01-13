@@ -1,6 +1,6 @@
 This is an HTML, CSS, project that was made available by Frontend Mentor. It challenges you to use provided its provided data files and CSS in order to build out a profile card for the listed individual.
 
-Image
+[Image](https://github.com/cdanderson76/profileCardComponent/blob/main/images/image-victor.jpg?raw=true)
 
 What are you most proud of, and what would you do differently next time?
 I'm most proud of the design. The project didn't call for it to be responsive, but I wanted to get more familiar with making things fit onto mobile devices, so I took it upon myself to make sure that it could be seen on cell phones as well.
