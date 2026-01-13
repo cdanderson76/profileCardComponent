@@ -149,7 +149,7 @@ li span {
         color: black;
     }
 
-    div .card-bg-image {
+    section .card-bg-image {
         background-color: #8b2626;
         background-image: url(./images/bg-pattern-card-red.svg);
     }
