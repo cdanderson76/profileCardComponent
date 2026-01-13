@@ -29,7 +29,7 @@ img {
 /* CARD CONTAINER */
 
 .card-container {
-    min-width: 324px;
+    min-width: 20.25rem;
     height: 20.25rem;
     position: relative;
     margin-top: -6.25rem;
@@ -41,12 +41,6 @@ img {
     background-image: url(./images/bg-pattern-card.svg);
     background-size: cover;
     border-radius: 20px 20px 0 0;
-    transition-duration: 1s;
-}
-
-/*  */
-.canvas, .card-bg-image {
-  transition: none;
 }
 
 .card-info {
@@ -105,20 +99,20 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    margin-top: 25px;
+    margin-top: 1.563rem;
 }
 
 ul li {
-    width: 56px;
-    height: 44px;
+    width: 3.5rem;
+    height: 2.75rem;
     text-align: center;
     list-style: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
 li span {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     color: gray;
     letter-spacing: 1.5px;
@@ -128,14 +122,14 @@ li span {
 
 .attribution { 
     width: 80%;
-    height: 20px;
-    font-size: 15px;
+    height: 1.25rem;
+    font-size: 0.938rem;
     text-align: center; 
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
     
 .attribution a {
-    margin-left: 5px;
+    margin-left: 0.313rem;
     animation-name: smoothFill;
     animation-duration: 15s;
     animation-iteration-count: infinite;
@@ -145,22 +139,15 @@ li span {
 
 @media ( min-width: 768px) {
     .canvas {
-        transition-duration: 1s;
-        transition: background-color 1s;
         background-color: rgb(139, 38, 38);
-    }
-
-    .card-bg-image {
-        transition: background-image 1s;
     }
 
     .card-container {
         width: 43%;
-        max-width: 350px;
+        max-width: 21.875rem;
     }
 
     div .card-bg-image {
-        transition-duration: 1s;
         background-color: #8b2626;
         background-image: url(./images/bg-pattern-card-red.svg);
     }
@@ -174,26 +161,25 @@ li span {
     display: flex;
     justify-content: flex-start;
     background-color: hsl(185, 75%, 39%);
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
 
   .card-container {
     display: flex;
-    min-width: 500px;
-    height: 50px;
-    margin-top: 20px;
+    min-width: 31.25rem;
+    height: 3.125rem;
+    margin-top: 1.25rem;
   }
 
   div .card-bg-image {
-    height: 226px;
+    height: 14.125rem;
     background-image: url(./images/bg-pattern-card.svg);
     position: relative; 
     border-radius: 20px 0 0 20px;
-    transition-duration: 0s;
   }
 
   .stat-box {
-    margin-top: 15px;
+    margin-top: 0.938rem;
   }
 
   .card-info {
