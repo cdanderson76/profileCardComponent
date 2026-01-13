@@ -12,7 +12,7 @@ This is an HTML/CSS project that was made available by Frontend Mentor. It chall
 
 <h2>Key Learnings</h2>
 - Working with SVG assets as background elements
-<br>- Using `background-position` for layered layouts
+<br>- Using `background-position` for detailed layouts
 <br>- Improving responsiveness with `rem` units and mobile-first CSS
 
 <h2>What are you most proud of, and what would you do differently next time?</h2>
