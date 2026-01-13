@@ -140,11 +140,13 @@ li span {
 @media ( min-width: 768px) {
     .canvas {
         background-color: rgb(139, 38, 38);
+        color: white;
     }
 
     .card-container {
         width: 43%;
         max-width: 21.875rem;
+        color: black;
     }
 
     div .card-bg-image {
