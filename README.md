@@ -10,6 +10,6 @@ to gain some familiarity using this property.
 
 I'm not sure that I would do things any different.  I used a 'mobile-first' approach, and I had converted most pixel units into REM units to aid in responsiveness, maintainability, and simplifying global size adjustments.
 
-What challenges did you encounter, and how did you overcome them?
+<h2>What challenges did you encounter, and how did you overcome them?</h2>
 The one challenge that I'd say that I ran into outside of working with the 'svg' files, was using the transitions for when the screen expands and shrinks.  I think that I could have made them smoother, but that had caused unwanted issues when the 
 app mounted.  I opted for the transition that I originally planned, and I went with that as a small addition to this application.
